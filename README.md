@@ -1,5 +1,7 @@
 # naiveboom
 
+MDUI版  
+
 一个简单的阅后即焚基于Nodejs+Redis+mdui  
 让Naive的事情不再发生
 
