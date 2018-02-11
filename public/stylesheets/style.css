@@ -1,31 +1,11 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
-
-a {
-  color: #00B7FF;
-}
-
 textarea { border: 2px dotted black;  }
 
-button#dobtn { margin-top: 10px; padding: 5px 30px; cursor: pointer; border: 1px solid black;  transition: all .3s ease-in-out}
-button#dobtn:hover {background-color: black; color: white; transform: scale(.96); }
-button#dobtn:active { transform: scale(1.03); }
-#text_edit
-{
-	width: 70vw;
-}
 
 pre {
 white-space: pre-wrap;
 word-wrap: break-word;
 }
 
-hr {
-	border:0; height:1px; background-color:#d4d4d4;
-	color:#d4d4d4	/* IE6 */
-}
 
 #zhao {
 	color: red;

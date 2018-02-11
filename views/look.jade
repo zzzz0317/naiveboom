@@ -1,12 +1,16 @@
 extends layout
 block content
-	hr
-	if status
-		pre #{text}
-	else
-		h3 啊喔😯，你查看的内容已经不见了...
-		p 这是因为这个网址已经被看过一次了
-		| 被看过一次的内容就会自动消失
-		| 对，这就是人们常说的 <b>阅后即焚！</b>
-
-		a(href='/') 我也要生成一个！
+        div(class='mdui-divider')
+        br
+        div.mdui-typo
+        if status
+                pre #{text}
+        else
+                //-h3 啊喔😯，你查看的内容已经不见了...
+                //-p 这是因为这个网址已经被看过一次了
+                //-| 被看过一次的内容就会自动消失
+                //-| 对，这就是人们常说的 <b>阅后即焚！</b>
+                //-
+                //-a(href='/') 我也要生成一个！
+                h3 404 - Not Found
+                p 您所查看的内容被丢到火星了哎

@@ -4,15 +4,30 @@ html
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
     meta(content='width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0' name='viewport')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(charset='utf-8')
+    link(rel='stylesheet', href='//cdn.bootcss.com/mdui/0.3.0/css/mdui.min.css')
+    script(src='//cdn.bootcss.com/mdui/0.3.0/js/mdui.min.js')
+    
   body
-    h5= title
-    block content
+    div.mdui-container.mdui-m-t-3.mdui-m-b-3.mdui-m-l-3.mdui-m-r-3
+        div.mdui-typo
+            h2= title
+        block content
+        
+        script(src='/javascripts/vue.min.js')
+        script(src='/javascripts/axios.min.js')
+        script(src='/javascripts/a.js')
 
-    script(src='/javascripts/vue.min.js')
-    script(src='/javascripts/axios.min.js')
-    script(src='/javascripts/a.js')
-
-    hr
-
-    footer
-         a(href='/') 首页
+        br
+        div(class='mdui-divider')
+        
+        footer
+          div.mdui-typo
+            br
+            //-a(href='/') 首页
+            p
+              a(href='https://github.com/zzzz0317/naiveboom') zzzz0317/naiveboom
+            p forked from 
+              a(href='https://github.com/leave01/naiveboom') leave01/naiveboom
+        
