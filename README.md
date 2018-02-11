@@ -1,6 +1,6 @@
 # naiveboom
 
-一个简单的阅后即焚基于Nodejs+Redis
+一个简单的阅后即焚基于Nodejs+Redis+mdui
 让Naive的事情不再发生
 
 这是一个简单的项目，可以一定程度保证你的安全。
@@ -13,5 +13,5 @@
 2. 产生一个一次性链接
 3. 阅后即焚
 
-[Demo](https://naive.cf)
+[Demo](https://bar.asec01.net)
 
